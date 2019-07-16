@@ -13,6 +13,6 @@ print(sparta['End'])
 
 
 Your_ending = input('How do you think the story ended?')
-Your_hero = input('Name your favourite hero!')
-New_ending = Your_ending + ' and your favourite hero is ' + Your_hero
+Your_hero = input('Who do you think helped our hero?')
+New_ending = Your_ending + ' and your hero ' + Your_hero + ' helped Sparta win the war '
 print(New_ending)
