@@ -39,33 +39,9 @@ else:
 print("The rest of the evening goes wonderfully and soon, the bill arrives. Yikes! £100!?")
 
 pay_choice = input("What will you do?: (1)Say you left your wallet at home. (2)Offer to pay.");
-# var
-# money_in_wallet = parseInt(prompt("Wait... how much money do you actually have?"));
-#
-# // Write
-# an if / else statement
-# including
-# the and operator - if your
-# pay_choice is to
-# Offer
-# to
-# pay
-# AND
-# the
-# money_in_wallet is over or equal
-# to
-# 100, execute
-# the
-# first
-# alert, but if EITHER
-# of
-# those
-# conditions
-# isn
-# 't met, execute the second with the throw
-#
-# alert("How very gallant of you! She seems impressed...")
-#
-# alert("Sorry, nobody likes a cheapskate.")
-# throw
-# "Don'tBeSoTightError";
+money_in_wallet = int(input("Wait... how much money do you actually have?"));
+
+if pay_choice == 'offer to pay' and  money_in_wallet >= 100:
+    print("How very gallant of you! She seems impressed...You may have a second date")
+else:
+    print("Sorry, nobody likes a cheapskate.")
