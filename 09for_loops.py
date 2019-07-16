@@ -52,7 +52,7 @@
 
 list_embeded_scores = [[10,5,2], [3,4,6]]
 
-for ind_list in list_embeded_scores:
-    print(ind_list)
-    for num in ind_list:
-        print(num * 2)
+# for ind_list in list_embeded_scores:
+#     print(ind_list)
+#     for num in ind_list:
+#         print(num * 2)
